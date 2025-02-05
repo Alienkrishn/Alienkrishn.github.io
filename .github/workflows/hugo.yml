@@ -28,7 +28,7 @@ jobs:
         run: hugo --minify
 
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: hugo-site
           path: public/
@@ -38,7 +38,7 @@ jobs:
     needs: build
     steps:
       - name: Download Artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: hugo-site
 
@@ -48,4 +48,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
-          publish_source: main  # Ensuring deploys are from the main branch
