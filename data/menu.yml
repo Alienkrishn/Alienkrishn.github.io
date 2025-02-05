@@ -1,5 +1,7 @@
 - item: About
   url: "/about"
+- item: Contact us
+  url: "/contact"
 - item: Blog
   url: ""
 - item: Category
