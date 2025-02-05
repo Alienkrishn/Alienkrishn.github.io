@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alienkrishn Tutorials !</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Alienkrishn Tutorials !</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Feb 2025 21:54:17 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Wed, 05 Feb 2025 21:54:17 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h3 id=&#34;hi-there-&#34;&gt;Hi there 👋&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;I&amp;rsquo;m Alienkrishn [Anon4You]&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;just a regular guy trying to learn linux and shell scripting consepts by himself 🧑‍💻&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://github-readme-stats.vercel.app/api/top-langs/?username=Anon4You&amp;amp;layout=compact&amp;amp;theme=black&amp;amp;bg_color=000000&#34; alt=&#34;Top Langs&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;My termux repo&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://anon4you.github.io/alienkrishn/&#34;&gt;Alienkrishn&lt;/a&gt; - is a custom termux repository which contains new tools for termux in it&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Feel free to explore my repositories and don&amp;rsquo;t hesitate to reach out. Let&amp;rsquo;s collaborate and make something amazing together! 🌟&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Contact Me&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://t.me/alienkrishn&#34;&gt;Telegram&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.instagram.com/alienkrishn&#34;&gt;Instagram&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Looking forward to connecting with like-minded individuals and building something impactful! 💻✨&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
