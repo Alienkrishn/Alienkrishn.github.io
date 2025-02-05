@@ -1,0 +1,51 @@
+name: Hugo Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: '1.16'  # Adjust the Go version as needed
+
+      - name: Install Hugo
+        run: |
+          wget https://github.com/gohugoio/hugo/releases/download/v0.92.2/hugo_extended_0.92.2_Linux-64bit.tar.gz
+          tar -xzf hugo_extended_0.92.2_Linux-64bit.tar.gz
+          sudo mv hugo /usr/local/bin/
+
+      - name: Build Hugo site
+        run: hugo --minify
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: hugo-site
+          path: public/
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Download Artifacts
+        uses: actions/download-artifact@v2
+        with:
+          name: hugo-site
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
+          publish_source: main  # Ensuring deploys are from the main branch
