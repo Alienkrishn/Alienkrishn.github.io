@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Alienkrishn Tutorials !</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on Alienkrishn Tutorials !</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Feb 2025 00:01:53 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering Vim Editor on Termux</title>
+      <link>http://localhost:1313/post/vim-termux/</link>
+      <pubDate>Thu, 06 Feb 2025 00:01:53 +0000</pubDate>
+      <guid>http://localhost:1313/post/vim-termux/</guid>
+      <description>&lt;h2 id=&#34;a-comprehensive-cheat-sheet-&#34;&gt;A Comprehensive Cheat Sheet 📝&lt;/h2&gt;&#xA;&lt;p&gt;Vim is a powerful text editor that is widely used for programming and text editing. If you&amp;rsquo;re using Termux, you can easily install and use Vim for your editing needs. This blog post will provide you with a comprehensive cheat sheet to master Vim.&lt;/p&gt;&#xA;&lt;h2 id=&#34;installing-vim-in-termux-&#34;&gt;Installing Vim in Termux 🖥️&lt;/h2&gt;&#xA;&lt;p&gt;To install Vim in Termux, follow these steps:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Open Termux&lt;/strong&gt;: Launch the Termux app on your device. 📱&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Update Package Lists&lt;/strong&gt;: It&amp;rsquo;s a good idea to update your package lists to ensure you have the latest information about available packages. Run:&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;pkg update&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Install Vim&lt;/strong&gt;: Use the following command to install Vim:&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;pkg install vim&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Once the installation is complete, you can start using Vim by typing &lt;code&gt;vim&lt;/code&gt; in the terminal. 🚀&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

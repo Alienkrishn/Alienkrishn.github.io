@@ -4,7 +4,7 @@ title = 'Mastering Vim Editor on Termux'
 image = 'post1.jpg'
 +++
 
-# Mastering Vim Editor on Termux: A Comprehensive Cheat Sheet 📝
+## A Comprehensive Cheat Sheet 📝
 
 Vim is a powerful text editor that is widely used for programming and text editing. If you're using Termux, you can easily install and use Vim for your editing needs. This blog post will provide you with a comprehensive cheat sheet to master Vim.
 
