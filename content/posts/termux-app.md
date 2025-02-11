@@ -1,7 +1,7 @@
 +++
 date = '2025-02-11T19:34:31Z'
 title = '📱 Termux: The Ultimate Linux Environment for Android'
-images = 'post6.jpg'
+image = 'post6.jpg'
 +++
 
 
