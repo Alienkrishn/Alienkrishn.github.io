@@ -40,7 +40,7 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 
 For any inquiries, suggestions, or feedback, please feel free to reach out:
 
-- Email: [your-email@example.com](mailto:alienkrishn@gmail.com)
+- Email: [alienkrishn@example.com](mailto:alienkrishn@gmail.com)
 - GitHub: [Your GitHub Profile](https://github.com/Alienkrishn)
 
 Thank you for visiting my blog! I hope you find the tutorials helpful and inspiring. 🌟
