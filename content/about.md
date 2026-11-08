@@ -1,50 +1,40 @@
-# **👋 Hi, I’m Alienkrishn (Anon4You)**  
++++
+date = '2026-11-08T00:00:00Z'
+title = 'About'
+description = 'Alienkrishn (Anon4You) — Termux tinkerer and maintainer of the TermuxVoid package repository.'
++++
 
-**A self-taught Linux & Shell Scripting enthusiast** 🐧✨  
-Passionate about exploring Termux, automation, and open-source tools. Learning by breaking (and fixing) things!  
+Hi, I'm **Alienkrishn**, also known as **Anon4You** — a self-taught Linux and shell scripting enthusiast from India. I learn by breaking things and rebuilding them better, mostly inside Termux.
 
----
+## 🛠️ What I maintain
 
-## **📊 GitHub Stats**  
+**[TermuxVoid](https://termuxvoid.github.io)** is my unofficial package repository for Termux: 250+ security, Android, AI and utility tools that are missing from the official repos. The same packages ship as both an APT (dpkg) and a Pacman repository, compile natively for Android, and are licensed BSD-3-Clause.
 
-<p align="center"><a href="https://www.youtube.com/@alienkrishnorg"><img title="Alienkrishn" src="https://github-readme-stats-q2ta.vercel.app/api?username=Anon4You&show_icons=true&include_all_commits=true&theme=chartreuse-dark&cache_seconds=3200"></a>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anon4You&layout=compact&theme=radical&hide_border=true&bg_color=000000" />
-  </a>
-</p>
+It replaced my old `alienkrishn` repository, which is now archived — every tool moved to TermuxVoid.
 
----
+- 📦 [APT repository](https://github.com/termuxvoid/repo) · [Pacman repository](https://github.com/termuxvoid/pacman-repo)
+- 🧰 [Package catalog](https://github.com/termuxvoid/repo/blob/main/assets/PACKAGES.md)
+- 📲 [Setup and tool browser](https://termuxvoid.github.io)
 
-## **🚀 My Projects**  
+## 🚀 Pinned projects
 
-### **🔧 [Alienkrishn Termux Repo](https://anon4you.github.io/alienkrishn/)**  
-A custom Termux repository with **powerful tools & scripts** for hacking, automation, and productivity.  
-*(Feel free to contribute!)*  
+- **[flutter-termux](https://github.com/termuxvoid/flutter-termux)** — run Google's Flutter SDK directly on Android with Termux.
+- **[Laudacode](https://github.com/Anon4You/Laudacode)** — a fast, lightweight AI coding agent for the terminal, pure Rust and built for Termux.
+- **[Qrylz](https://github.com/Anon4You/Qrylz)** — patch an Android APK so signature verification keeps working after re-signing, without duplicating the APK.
+- **[dex2c](https://github.com/Anon4You/dex2c)** — Dalvik-to-C++ JNI compiler for Termux: turns Java/Kotlin methods into native JNI code inside the APK.
+- **[termux-penv](https://github.com/Anon4You/termux-penv)** — install and manage 32-bit/64-bit Termux chroot environments for cross-compilation and multi-arch testing.
+- **[InstaGhost](https://github.com/Anon4You/InstaGhost)** — simple, professional Instagram data gathering.
 
----
+## 💬 Connect
 
-## **💬 Let’s Connect!**  
-
-📢 **Join my journey:**  
-- [YouTube](https://www.youtube.com/@alienkrishnorg) *(Termux/Linux tutorials)*  
-- [Telegram](https://t.me/alienkrishn) *(Chat & updates)*  
-- [Instagram](https://www.instagram.com/alienkrishn) *(Behind-the-scenes)*  
-
-🔗 **Collaborate?** DM me! Always open to cool projects.  
-
----
-
-### **💡 Fun Fact**  
-> *"I break things to learn how they work—then rebuild them better."*  
-
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Anon4You&label=Profile+Views&color=blueviolet&style=flat" alt="Profile Views" />
-</p>
+- YouTube: [@alienkrishnorg](https://youtube.com/@alienkrishnorg) — Termux and Linux tutorials
+- Telegram: [@termuxvoid](https://t.me/termuxvoid) — TermuxVoid updates and chat
+- GitHub: [@Anon4You](https://github.com/Anon4You)
+- X: [@alienkrishn](https://x.com/alienkrishn)
+- Instagram: [@alienkrishn](https://instagram.com/alienkrishn)
+- Linktree: [linktr.ee/Alienkrishn](https://linktr.ee/Alienkrishn)
+- Email: [alienkrishn@gmail.com](mailto:alienkrishn@gmail.com)
 
 ---
 
-### **✨ Thanks for visiting!**  
-*Let’s build something amazing together.* 💻🔥  
-
----
+> *"I break things to learn how they work — then rebuild them better."*

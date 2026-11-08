@@ -1,0 +1,3 @@
+{{- with resources.Get (printf "images/opt/%s.webp" (path.BaseName .image)) -}}
+  <img class="{{ $.class }}" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="" loading="{{ $.loading | default "lazy" }}" decoding="async"{{ if eq $.loading "eager" }} fetchpriority="high"{{ end }}>
+{{- end -}}

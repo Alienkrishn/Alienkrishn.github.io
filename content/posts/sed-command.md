@@ -2,6 +2,8 @@
 date = '2025-02-11T20:05:39Z'
 title = 'Understanding the `sed` Command in Unix/Linux 🖥️'
 image = 'post7.jpg'
+categories = ['Linux']
+tags = ['shell', 'commands', 'sed']
 +++
 
 

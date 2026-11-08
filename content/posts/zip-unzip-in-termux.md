@@ -2,6 +2,8 @@
 date = '2025-04-06T21:02:05Z'
 title = '🔐 Mastering Zip & Unzip in Termux: The Ultimate Guide'
 image = "post11.jpg"
+categories = ['Termux']
+tags = ['files', 'zip', 'commands']
 +++
 
 Want to **compress files** to save space? 📦 Need to **extract downloads** quickly? 🎉 This guide will turn you into a **Termux zipping wizard**! ✨  

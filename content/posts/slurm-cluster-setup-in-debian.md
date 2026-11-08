@@ -2,6 +2,8 @@
 date = '2026-08-08T00:00:00Z'
 title = '🚀 SLURM HPC Cluster Setup on Debian: Complete Guide'
 image = 'post13.png'
+categories = ['Linux']
+tags = ['slurm', 'hpc', 'debian', 'cluster']
 +++
 
 *Ever wondered how research labs run thousands of jobs at once?* 🤔 Welcome to the world of HPC (High Performance Computing)! In this guide, I'll walk you through building your very own **SLURM cluster** on Debian — from why you'd want one, to the full controller setup, adding compute nodes, and exposing everything through a **REST API** and a **web dashboard**. Let's get computing! 🖥️

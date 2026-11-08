@@ -1,0 +1,48 @@
+{{ define "main" }}
+<section class="intro">
+  <p class="eyebrow">~/blog</p>
+  <h1>Termux tutorials &amp; Linux notes</h1>
+  <p class="lede">Practical guides for Android's Linux environment — shell, security tooling and open-source projects.</p>
+</section>
+
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ with $posts.ByDate.Reverse }}
+  {{ $featured := index . 0 }}
+  <article class="featured">
+    <a href="{{ $featured.RelPermalink }}">
+      <div class="featured-body">
+        <p class="eyebrow">latest post</p>
+        <h2>{{ $featured.Title }}</h2>
+        <p class="excerpt">{{ $featured.Summary | plainify | truncate 220 }}</p>
+        <p class="meta">
+          <time datetime="{{ $featured.Date.Format "2006-01-02" }}">{{ $featured.Date.Format "Jan 2, 2006" }}</time>
+          <span>{{ $featured.ReadingTime }} min read</span>
+          {{ with $featured.GetTerms "categories" }}<span class="cat">{{ (index . 0).LinkTitle | lower }}</span>{{ end }}
+        </p>
+      </div>
+      <div class="featured-thumb">
+        {{ with $featured.Params.image }}{{ partial "cover.html" (dict "image" . "loading" "eager") }}{{ end }}
+      </div>
+    </a>
+  </article>
+
+  {{ with after 1 . }}
+  <h2 class="section-title">more posts</h2>
+  <section class="grid">
+    {{ range . }}
+    <article class="card">
+      <a href="{{ .RelPermalink }}">
+        <p class="meta">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+          <span>{{ .ReadingTime }} min</span>
+          {{ with .GetTerms "categories" }}<span class="cat">{{ (index . 0).LinkTitle | lower }}</span>{{ end }}
+        </p>
+        <h3>{{ .Title }}</h3>
+        <p class="excerpt">{{ .Summary | plainify | truncate 120 }}</p>
+      </a>
+    </article>
+    {{ end }}
+  </section>
+  {{ end }}
+{{ end }}
+{{ end }}

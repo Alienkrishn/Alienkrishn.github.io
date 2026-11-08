@@ -2,6 +2,8 @@
 date = '2025-04-06T20:20:54Z'
 title = '📚 Mastering PDF Magic: A Complete Guide to Using QPDF in Termux 🧙‍♂️'
 image = 'post10.jpg'
+categories = ['Termux']
+tags = ['pdf', 'files', 'qpdf']
 +++
 
 *Tired of bulky PDF editors on your phone? Want professional-grade PDF manipulation right in your terminal?* 🤔 Let me introduce you to **QPDF in Termux** - your new pocket-sized PDF powerhouse! 💪

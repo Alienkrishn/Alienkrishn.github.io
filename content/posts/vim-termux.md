@@ -2,6 +2,8 @@
 date = '2025-02-06T00:01:53Z'
 title = 'Mastering Vim Editor on Termux'
 image = 'post1.jpg'
+categories = ['Termux']
+tags = ['editors', 'vim']
 +++
 
 ## A Comprehensive Cheat Sheet 📝

@@ -2,6 +2,8 @@
 date = '2025-04-02T03:25:58Z'
 title = 'Mastering GitHub CLI on Termux: A Complete Guide 🚀'
 image='post9.jpg'
+categories = ['Termux']
+tags = ['github', 'git', 'development']
 +++
 
 

@@ -1,6 +1,6 @@
 # Welcome to My GitHub Workflow Website 🌐
 
-This repository hosts my personal blog, built using Hugo and deployed via GitHub Actions. Here, I share Termux tutorials, tips, and resources that I find valuable in my journey with Termux and Linux on Android. The site uses the [Newsroom](https://github.com/onweru/newsroom.git) theme as a submodule for a clean and modern design.
+This repository hosts my personal blog, built using Hugo and deployed via GitHub Actions. Here, I share Termux tutorials, tips, and resources that I find valuable in my journey with Termux and Linux on Android. The site uses a small custom dark theme in `layouts/` with no external dependencies.
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ This blog is dedicated to sharing Termux tutorials, helping users of all levels 
 - **Responsive Design** 📱: The website is fully responsive, ensuring a seamless experience across different devices.
 - **Tutorials Archive** 📂: Highlights my key Termux tutorials, including links and descriptions.
 - **Blog Section** 📚: Contains articles and tips on using Termux effectively.
-- **Contact Form** 📬: Allows visitors to get in touch with me easily.
+- **Contact Page** 📬: Allows visitors to get in touch with me easily.
 
 ## Deployment
 
@@ -40,7 +40,7 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 
 For any inquiries, suggestions, or feedback, please feel free to reach out:
 
-- Email: [alienkrishn@example.com](mailto:alienkrishn@gmail.com)
-- GitHub: [Your GitHub Profile](https://github.com/Alienkrishn)
+- Email: [alienkrishn@gmail.com](mailto:alienkrishn@gmail.com)
+- GitHub: [@Anon4You](https://github.com/Anon4You)
 
 Thank you for visiting my blog! I hope you find the tutorials helpful and inspiring. 🌟

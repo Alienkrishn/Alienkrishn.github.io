@@ -1,0 +1,24 @@
+{{ define "main" }}
+<header class="page-head">
+  <h1>{{ .Title | lower }}</h1>
+  <p>{{ if .Data.Singular }}{{ .Data.Singular }} · {{ end }}{{ len .Pages }} {{ if eq (len .Pages) 1 }}entry{{ else }}entries{{ end }}</p>
+</header>
+{{ if .Data.Terms }}
+<ul class="terms">
+  {{ range .Data.Terms.Alphabetical }}
+  <li><a href="{{ .Page.RelPermalink }}"><span>{{ .Page.LinkTitle | lower }}</span><em>{{ .Count }}</em></a></li>
+  {{ end }}
+</ul>
+{{ else if .Pages }}
+<ul class="archive">
+  {{ range .Pages.ByDate.Reverse }}
+  <li>
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </li>
+  {{ end }}
+</ul>
+{{ else }}
+<p class="muted">Nothing here yet.</p>
+{{ end }}
+{{ end }}

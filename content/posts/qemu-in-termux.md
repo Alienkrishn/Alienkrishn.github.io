@@ -2,6 +2,8 @@
 date = '2025-02-24T07:33:37Z'
 title = 'QEMU in Termux: A Complete Guide with Examples 🚀'
 image = 'post8.jpg'
+categories = ['Termux']
+tags = ['qemu', 'virtualization']
 +++
 
 

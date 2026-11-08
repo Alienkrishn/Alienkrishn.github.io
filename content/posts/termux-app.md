@@ -2,6 +2,8 @@
 date = '2025-02-11T19:34:31Z'
 title = '📱 Termux: The Ultimate Linux Environment for Android'
 image = 'post6.jpg'
+categories = ['Termux']
+tags = ['android', 'termux']
 +++
 
 

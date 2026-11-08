@@ -1,0 +1,32 @@
+{{ define "main" }}
+{{ $content := .Content }}
+<article class="post">
+  <header class="post-head">
+    {{ if eq .Section "posts" }}
+    <p class="meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+      <span>{{ .ReadingTime }} min read</span>
+      {{ with .GetTerms "categories" }}<a class="cat" href="{{ (index . 0).RelPermalink }}">{{ (index . 0).LinkTitle | lower }}</a>{{ end }}
+    </p>
+    {{ end }}
+    <h1>{{ .Title }}</h1>
+    {{ with .GetTerms "tags" }}
+    <ul class="tags">{{ range . }}<li><a href="{{ .RelPermalink }}">#{{ .LinkTitle | lower }}</a></li>{{ end }}</ul>
+    {{ end }}
+  </header>
+  {{ if and (eq .Section "posts") .TableOfContents }}
+  <details class="toc">
+    <summary>on this page</summary>
+    {{ .TableOfContents }}
+  </details>
+  {{ end }}
+  {{ with .Params.image }}{{ partial "cover.html" (dict "image" . "class" "hero" "loading" "eager") }}{{ end }}
+  <div class="prose">{{ $content }}</div>
+  {{ if eq .Section "posts" }}
+  <nav class="post-nav" aria-label="More posts">
+    {{ with .PrevInSection }}<a class="prev" href="{{ .RelPermalink }}"><span>older</span><strong>{{ .Title }}</strong></a>{{ end }}
+    {{ with .NextInSection }}<a class="next" href="{{ .RelPermalink }}"><span>newer</span><strong>{{ .Title }}</strong></a>{{ end }}
+  </nav>
+  {{ end }}
+</article>
+{{ end }}

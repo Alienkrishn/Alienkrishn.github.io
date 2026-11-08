@@ -2,6 +2,8 @@
 date = '2025-02-06T11:38:13Z'
 title = 'The Echo Command'
 image = 'post2.jpg'
+categories = ['Linux']
+tags = ['shell', 'commands', 'echo']
 +++
 
 # 🖥️ The Echo Command: A Comprehensive Guide

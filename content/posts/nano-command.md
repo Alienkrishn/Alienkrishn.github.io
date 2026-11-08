@@ -2,6 +2,8 @@
 date = '2025-02-07T16:48:04Z'
 title = '✍️ The Nano Command: A Comprehensive Guide'
 image = 'post3.jpg'
+categories = ['Termux']
+tags = ['editors', 'nano']
 +++
 
 

@@ -2,6 +2,8 @@
 date = '2025-02-07T17:11:57Z'
 title = '📦 The Tar Utility: An In-Depth Overview'
 image = 'post5.jpg'
+categories = ['Linux']
+tags = ['shell', 'commands', 'tar']
 +++
 
 

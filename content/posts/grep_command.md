@@ -2,6 +2,8 @@
 date = '2025-02-07T17:07:59Z'
 title = '🔍 The Grep Command: A Comprehensive Guide'
 image = 'post4.jpg'
+categories = ['Linux']
+tags = ['shell', 'commands', 'grep']
 +++
 
 
